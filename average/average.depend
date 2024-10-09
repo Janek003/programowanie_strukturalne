@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1728495278 source:c:\folders\ppython\programowanie_strukturalne\average\main.c
+	<stdio.h>
+	<stdlib.h>
+
