@@ -22,13 +22,13 @@ int main()
     // policzyc delte
     float delta;
     delta = pow(b,2) - 4*a*c;
-    printf("Delta: %f\n", delta);
+    printf("Delta: %.2f\n", delta);
 
     // jesli delta mniejsza od zera to nie ma rozwiazan
     if (delta < 0) {
-        printf("Delta %f is lesser then 0 therefore there are no solutions to this equasion, beepbop", delta);
+        printf("Rownanie nie ma rozwiazan", delta);
         return 0;
-
+    }
     // jesli delta >= 0 to 2 rozwiazania wyznaczamy
     float x1;
     x1 = (-b-sqrt(delta))/2*a;
@@ -36,8 +36,13 @@ int main()
     float x2;
     x2 = (-b+sqrt(delta))/2*a;
 
-
     // jesli jedno jest inne od drugiego to wyswietlamy 2, jesli sa te same to mowimy ze jest tylko 1
+    if (x1==x2) {
+        printf("Rownanie ma 1 rozwiazanie: %.2f", x1);
+        return 0;
+    }
+
+    printf("Rownanie ma 2 rozwiazania: %.2f oraz %.2f", x1, x2);
 
     return 0;
 }

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1728496763 source:c:\folders\ppython\programowanie_strukturalne\quadratic_equasion\main.c
+1728497980 source:c:\folders\ppython\programowanie_strukturalne\quadratic_equasion\main.c
 	<stdio.h>
 	<stdlib.h>
 	<math.h>
