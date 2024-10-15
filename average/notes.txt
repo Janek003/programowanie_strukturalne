@@ -1,0 +1,15 @@
+//getting one word from uset input
+#include <stdio.h>
+
+int main() {
+    char str[100];  // Declare a char array to store input
+
+    printf("Enter a string: ");
+    scanf("%s", str);  // Read a string from the user
+
+    printf("You entered: %s\n", str);  // Output the string
+
+    return 0;
+}
+
+//getting two,+ words from uset input
