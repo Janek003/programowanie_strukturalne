@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1729022809 source:c:\folders\ppython\programowanie_strukturalne\input_output_char\main.c
+	<stdio.h>
+	<stdlib.h>
+
