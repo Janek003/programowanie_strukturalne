@@ -30,3 +30,18 @@ int main() {
 fgets() reads up to one less than the specified size (sizeof(str) in this case) and stores the input in the array, including spaces.
 
 It adds a newline character (\n) at the end of the string when the user presses "Enter". If you don't want the newline character, you can remove it by manually replacing it with the null terminator ('\0').
+
+// enter 2 values seperated by a space
+#include <stdio.h>
+
+int main() {
+    char firstWord[50], secondWord[50];
+
+    printf("Enter two words separated by a space: ");
+    scanf("%s %s", firstWord, secondWord);  // Read two words separated by space
+
+    printf("First word: %s\n", firstWord);
+    printf("Second word: %s\n", secondWord);
+
+    return 0;
+}
