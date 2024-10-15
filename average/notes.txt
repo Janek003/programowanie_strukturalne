@@ -25,3 +25,8 @@ int main() {
 
     return 0;
 }
+
+//notes for fgets
+fgets() reads up to one less than the specified size (sizeof(str) in this case) and stores the input in the array, including spaces.
+
+It adds a newline character (\n) at the end of the string when the user presses "Enter". If you don't want the newline character, you can remove it by manually replacing it with the null terminator ('\0').
