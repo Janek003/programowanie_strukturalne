@@ -13,3 +13,15 @@ int main() {
 }
 
 //getting two,+ words from uset input
+#include <stdio.h>
+
+int main() {
+    char str[100];  // Declare a char array with size 100
+
+    printf("Enter a string: ");
+    fgets(str, sizeof(str), stdin);  // Read a string from the user, including spaces
+
+    printf("You entered: %s", str);  // Output the string
+
+    return 0;
+}
