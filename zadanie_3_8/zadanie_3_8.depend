@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1729536292 source:c:\folders\ppython\programowanie_strukturalne\zadanie_3_8\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
