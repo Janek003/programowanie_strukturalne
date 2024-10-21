@@ -5,7 +5,7 @@ int main()
 {
     int a = 0, b = 0, temp = 0, n = 0;
 
-    printf("ilo cyfrowe n: ");
+    printf("ilosc cyfr: ");
     scanf("%i", &n);
 
     printf("input a and b as [a b]: ");
