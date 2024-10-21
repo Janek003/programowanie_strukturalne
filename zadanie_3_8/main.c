@@ -5,7 +5,7 @@
 int main()
 {
     float x=0, a = 0, b = 0, c = 0, d = 0;
-    printf("input x: ");
+    printf("(if counted for trygonometry function it will be used in radians)input x: ");
     scanf("%f", &x);
 
     a = 10 * cos(x) - 0.1 * x * x + sin(x) + sqrt(4 * x * x + 7);
