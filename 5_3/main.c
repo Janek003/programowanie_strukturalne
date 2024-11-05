@@ -4,7 +4,10 @@
 
 
 float if_fun(int t, int a, float rad){
-    return 1 - sin(rad);
+    if (t == 8){return 1 - sin(rad);}
+    if (t >= 0 && t <= 3){return (1+cos(rad))/2;}
+    if (t >= 4 && t <= 7){return sqrt((a*a)+1);}
+
 }
 
 int main()
