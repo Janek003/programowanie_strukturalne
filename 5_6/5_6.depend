@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1730823473 source:c:\folders\ppython\programowanie_strukturalne\5_6\main.c
-	<stdio.h>
-	<stdlib.h>
-	<math.h>
-	<stdbool.h>
-
