@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int f(int x, int *w);//funkcja zwraca przez return szescian, a przez wskaznik kwadrat
+int f(int x, int *w)//funkcja zwraca przez return szescian, a przez wskaznik kwadrat
+    { *w = x*x; //obliczenie kwadratu liczby
+        return (*w)*x; //obliczenie szeœcianu liczby
+}
 
 int main()
 {
@@ -11,8 +14,3 @@ int main()
  return 0;
 
    }
-
-int f(int x, int *w)
-    { *w = x*x; //obliczenie kwadratu liczby
-        return (*w)*x; //obliczenie szeœcianu liczby
-}
