@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "stdio.h": "c",
+    "tablicedyn.h": "c",
+    "stdlib.h": "c",
+    "time.h": "c"
+  }
+}
